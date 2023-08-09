@@ -1,0 +1,151 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background-image: url(https://i.ibb.co/9H0d4g7/fundo-html.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+p, h1, h2, h3, h4, h5 {
+    font-family: 'Nunito', sans-serif;
+    color: aliceblue;
+}
+
+img {
+    border-radius: 80px;
+}
+
+.cabecalho {
+    background-color: #578018;
+    text-align: center;
+    border-radius: 1.7%;
+    width: auto;
+    height: auto;
+    margin: 1.5%;
+    margin-bottom: 1%;
+}
+
+.img-cabecalho {
+    padding-top: 7px;
+    max-height: 10%;
+    max-width: 20%;
+}
+
+
+
+.produto {
+    display: flex;
+}
+
+.img-produto {
+    margin: 1.5%;
+    max-width: 40%;
+    margin-bottom: 0.5%;
+}
+
+.txt-produto {
+    margin: 1.5%;
+}
+
+.button {
+    text-align: center;
+}
+
+.gif {
+    max-width: 30%;
+}
+
+.txt-longo {
+    margin: 1.5%;
+}
+
+.txt-fotos {
+    text-align: center;
+}
+
+.aba-fotos {
+    text-align: center;
+    display: inline-block;
+}
+
+.foto {
+    max-width: 35%;
+    padding: 3%;
+    padding-bottom: 0%;
+}
+
+.aviso-img{
+    text-align: center;
+}
+
+.aviso-img h5{
+    font-size: 9px;
+    padding: 15px;
+    padding-top: 0;
+    text-align: center;
+}
+
+.adquirido {
+    text-align: center;
+}
+
+.já-tem{
+    padding: 15px;
+}
+
+.acesse{
+    padding-bottom: 15px;
+}
+
+.buttons {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.button-manual {
+    margin-right: 2.5%;
+}
+
+footer {
+    padding-top: 0.2%;
+    bottom: 0;
+    background-color: #578018;
+    color: #FFF;
+    width: 100%;
+    height: 190px;    
+    text-align: center;
+}
+
+.contato {
+    text-align: center;
+}
+
+.contato .links{
+    padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .produto {
+        display: block;
+        text-align: center;
+    }
+    p {
+        font-size: 13px;
+    }
+    h5 {
+        font-size: 17px;
+    }
+    h2 {
+        font-size: 19px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+}
