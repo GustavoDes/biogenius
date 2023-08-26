@@ -119,8 +119,12 @@ footer {
     background-color: #578018;
     color: #FFF;
     width: 100%;
-    height: 190px;    
+    height: 100%;    
     text-align: center;
+}
+
+.insta {
+    padding-bottom: 15px;
 }
 
 .contato {
